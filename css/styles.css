@@ -9,9 +9,13 @@ ul {
   padding: 0;
   margin: 0;
 }
+img {
+  display: block;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 :root {
   --logo-color: #4d5ae5;
@@ -41,6 +45,7 @@ body {
 .header-nav {
   display: flex;
   gap: 76px;
+  align-items: center;
 }
 .navigation {
 }
